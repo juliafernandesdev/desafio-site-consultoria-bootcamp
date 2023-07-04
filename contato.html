@@ -43,10 +43,11 @@
                         <h4>Formulário para contato</h4>
                         <form onsubmit="alert ('Formulário enviado!')" method="post" autocomplete="off">
                             Preencha o formulário abaixo, que entraremos em contato:<br>
-                            <label>Nome: </label><input type="text"><br>
-                            <label>E-mail: </label><input type="email" name="e-mail"><br>
-                            <label>Assunto: </label><input type="text"><br>
-                            <label>Mensagem: </label><textarea name="mensagem" cols="30" rows="10">Digite aqui:</textarea><br>
+                            <label>Nome*: </label><input type="text"><br>
+                            <label>E-mail*: </label><input type="email" name="e-mail"><br>
+                            <label>Assunto*: </label><input type="text"><br>
+                            <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem:"></textarea><br>
+                            <sup>*Dados obrigatórios!</sup><br>
                             <button type="submit">Enviar</button><button type="reset">Limpar</button>
                         </form>
                     </li>
